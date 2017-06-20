@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            background: #ff00ff;
+        }
+    </style>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function () {   //文档就绪函数   ready   准备好
+           $('p').click(function () {  // click 点击
+               $(this).hide(3000);   // hide  隐藏
+           })
+        });
+        $(function () {   //（document).ready  可以省略。。
+            $('button').click(function () {
+                $('div').hide(3000);
+            })
+        });
+    </script>
+</head>
+<body>
+<p>If you click on me, I will disappear.</p>
+<div>javascript -> jQuery库 点击按钮消失</div>
+<button>点击</button>
+</body>
+</html>

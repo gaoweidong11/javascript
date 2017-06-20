@@ -1,1 +1,30 @@
 javascript语法
+
+
+
+
+jquery语法：
+    jQuery 是一个“写的更少，但做的更多”的轻量级 JavaScript 库。
+    具备的基础知识：HTML,CSS,javaScript。
+jQuery 是一个 JavaScript 函数库。
+jQuery 库包含以下特性：
+    HTML 元素选取
+    HTML 元素操作
+    CSS 操作
+    HTML 事件函数
+    JavaScript 特效和动画
+    HTML DOM 遍历和修改
+    AJAX
+    Utilities   公用工程
+
+七牛云  cda: jquery 库
+
+基础语法是：$(selector).action()
+    美元符号定义 jQuery
+    选择符（selector）“查询”和“查找” HTML 元素   //selector   挑选者；选择器
+    jQuery 的 action() 执行对元素的操作         // action    行为
+//hide   隐藏
+$(this).hide() - 隐藏当前元素
+$("p").hide() - 隐藏所有段落
+$(".test").hide() - 隐藏所有 class="test" 的所有元素
+$("#test").hide() - 隐藏所有 id="test" 的元素
