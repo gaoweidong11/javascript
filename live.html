@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            $('body').delegate('p','click',function () {
+                $('p').hide(3000);
+            });
+            $('button').click(function () {
+                $('<p>new p....</p>').insertAfter('button');
+            });
+        })
+    </script>
+</head>
+<body>
+<button>点击出现新的p</button>
+</body>
+</html>
